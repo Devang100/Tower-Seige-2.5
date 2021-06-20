@@ -149,7 +149,7 @@ function keyPressed(){
 async function getBackgroundImg(){
 
   // write code to fetch time from API
-  var responce = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata")
+  var responce = await fetch("https://worldtimeapi.org/api/timezone/Asia/Kolkata")
 
   //change the data in JSON format
   var responceJSON = await responce.json();
